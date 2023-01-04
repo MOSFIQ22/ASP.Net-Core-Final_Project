@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Exam>
+@{
+    int? id = (int?)ViewData["id"];
+    
+}
+<table class="table table-bordered table-hover" id="examTable">
+    <thead class="table-light">
+        <tr>
+            <th></th>
+            <th>Exam Name</th>
+            <th>Exam Fee</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+                <tr id="exam_tr_@p.ExamID" class="@(id.HasValue && id == p.ExamID ? "bg-info": "")">
+                <td><button type="button" class="btn btn-sm select @(id.HasValue && id == p.ExamID ? "disabled": "")" data-exam-id="@p.ExamID" >Select</button></td>
+                <td>@p.ExamName</td>
+                <td>@p.ExamFee</td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="exam"  data-db-action="edit" data-exam-id="@p.ExamID" data-controller-action="EditExam"><i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="exam"  data-db-action="delete" data-exam-id="@p.ExamID" data-controller-action="DeleteExam"><i class="bi bi-trash" ></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

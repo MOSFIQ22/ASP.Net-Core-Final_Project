@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ExamResult>
+
+<table class="table table-bordered table-hover" id="examresultTable">
+    <thead class="table-light">
+        <tr>
+            <th>Picture</th>
+            <th>Trainee Name</th>
+            <th>Result</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+           <tr id="@($"examresult_tr_{@p.ExamID}_{@p.TrainneID}")">
+                <td>
+                    <img src="/Pictures/@p.Trainne.Picture" class="rounded-circle" style="width:40px" />
+                </td>
+                <td>@p.Trainne.TrainneName</td>
+                <td>@p.Result</td>
+                <td>
+                   <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="examresult" data-db-action="edit"  data-exam-id="@p.ExamID" data-trainne-id="@p.TrainneID" data-controller-action="EditExamResult"><i class="bi bi-pencil"></i></button>
+                   <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="examresult" data-db-action="delete" data-exam-id="@p.ExamID" data-trainne-id="@p.TrainneID" data-controller-action="DeleteExamResult"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

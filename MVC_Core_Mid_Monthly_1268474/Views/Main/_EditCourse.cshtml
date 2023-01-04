@@ -1,0 +1,62 @@
+﻿@model Course
+
+
+<form id="f" name="f" data-db-type="course" data-db-action="edit" data-controller-action="EditCourse">
+    <input type="hidden" asp-for="CourseID" />
+    <div class="form-group row mb-1">
+        <label asp-for="BatchName" class="col-form-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="BatchName" class="form-control" />
+            <span asp-validation-for="BatchName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="CourseName" class="control-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="CourseName" class="form-control col-2" />
+            <span asp-validation-for="CourseName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="CourseDesc" class="control-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="CourseDesc" class="form-control col-2" />
+            <span asp-validation-for="CourseDesc" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="CourseDuration" class="control-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="CourseDuration" class="form-control col-2" />
+            <span asp-validation-for="CourseDuration" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="StartDate" class="control-label col-3"></label>
+        <div class="col-9">
+            <input type="text" asp-for="StartDate" class="form-control col-2 date">
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="EndDate" class="control-label col-3"></label>
+        <div class="col-9">
+            <input type="text" asp-for="EndDate" class="form-control col-2  date">
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="Available" class="control-label col-2"></label>
+        <div class="col-9">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" asp-for="Available" checked>
+            </div>
+            <span asp-validation-for="Available" class="text-danger"></span>
+        </div>
+    </div>
+</form>
+
+
+
+
+

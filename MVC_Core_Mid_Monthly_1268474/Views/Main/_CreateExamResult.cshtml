@@ -1,0 +1,30 @@
+﻿@model ExamResult 
+
+<form id="f" name="f" data-db-type="examresult" data-db-action="insert" data-controller-action="CreateExamResult">
+    <input type="hidden" asp-for="ExamID" value="@ViewData["ExamID"]" />
+    <div class="form-group row mb-1">
+        <label asp-for="ExamID" class="col-form-label col-form-label-sm col-2"></label>
+        <div class="col-4">
+            @ViewData["ExamID"]
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="TrainneID" class="col-form-label col-form-label-sm col-2"></label>
+        <div class="col-4">
+            <select asp-for="TrainneID" class="form-select form-select-sm added" asp-items="@(new SelectList(ViewData["Trainnes"] as IEnumerable<Trainne>, "TrainneID", "TrainneName"))">
+                <option value="" selected>Select one</option>
+            </select>
+            <span asp-validation-for="TrainneID" class="text-danger"></span>
+        </div>
+        <label asp-for="Result" class="col-form-label col-form-label-sm col-2"></label>
+        <div class="col-3">
+            <select asp-for="Result" asp-items="Html.GetEnumSelectList<Result>()" class="form-select">
+                <option selected="selected" value="">Please select</option>
+            </select>
+            <span asp-validation-for="Result" class="text-danger"></span>
+        </div>
+        <div class="col-1">
+            <button type="button" class="btn btn-sm deloi-insert"><i class="bi bi-trash"></i></button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,21 @@
+﻿
+@model Exam
+
+<form id="f" name="f" data-db-type="exam" data-db-action="edit" data-controller-action="EditExam">  
+    <input type="hidden" asp-for="ExamID" />
+    <div class="form-group row mb-1">
+        <label asp-for="ExamName" class="col-form-label col-3"></label>
+        <div class="col-10">
+            <input asp-for="ExamName" class="form-control" />
+            <span asp-validation-for="ExamName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="ExamFee" class="control-label col-3"></label>
+        <div class="col-10">
+            <input asp-for="ExamFee" class="form-control" />
+            <span asp-validation-for="ExamFee" class="text-danger"></span>
+        </div>
+    </div>
+</form>
+

@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_Core_Mid_Monthly_1268474
+build_property.RootNamespace = MVC_Core_Mid_Monthly_1268474
+build_property.ProjectDir = F:\MVC.net Core all file\MVC Core SPA Project_all_of_project_submitted\1268474_MVC_Core_Mid_Monthly\MVC_Core_Mid_Monthly_1268474\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\MVC.net Core all file\MVC Core SPA Project_all_of_project_submitted\1268474_MVC_Core_Mid_Monthly\MVC_Core_Mid_Monthly_1268474
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CourseTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ291cnNlVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CreateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CreateExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlRXhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CreateExamResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlRXhhbVJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CreateItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_CreateTrainne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfQ3JlYXRlVHJhaW5uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_EditExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdEV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_EditExamResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdEV4YW1SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_EditTrainne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRWRpdFRyYWlubmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_ExamResultTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRXhhbVJlc3VsdFRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_ExamTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfRXhhbVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Main/_TraineeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxfVHJhaW5lZVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC.net Core all file/MVC Core SPA Project_all_of_project_submitted/1268474_MVC_Core_Mid_Monthly/MVC_Core_Mid_Monthly_1268474/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

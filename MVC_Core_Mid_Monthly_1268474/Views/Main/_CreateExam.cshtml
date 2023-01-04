@@ -1,0 +1,31 @@
+﻿@model Exam
+
+<form id="f" name="f" data-db-type="exam" data-db-action="insert" data-controller-action="CreateExam">
+   
+    
+    <div class="form-group row mb-1">
+        <label asp-for="ExamName" class="col-form-label col-3"></label>
+        <div class="col-10">
+            <input asp-for="ExamName" class="form-control" />
+            <span asp-validation-for="ExamName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label asp-for="ExamFee" class="control-label col-3"></label>
+        <div class="col-10">
+            <input asp-for="ExamFee" class="form-control" />
+            <span asp-validation-for="ExamFee" class="text-danger"></span>
+        </div>
+    </div>
+     <div id="items">
+        <div class="d-flex justify-content-between mb-1">
+            <h3>Exam Result</h3>
+            <div><button type="button" class="btn btn-primary btn-sm" id="addItemForm"><i class="bi bi-plus"></i></button></div>
+        </div> 
+        @await Html.PartialAsync("_CreateItem", 
+        null,
+        new ViewDataDictionary(this.ViewData)
+         )
+    </div>
+</form>
+

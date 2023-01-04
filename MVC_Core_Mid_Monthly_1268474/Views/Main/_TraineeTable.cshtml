@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Trainne>
+@{
+    int? id = (int?)ViewData["id"];
+
+}
+<table class="table table-bordered table-hover" id="trainneTable">
+    <thead class="table-light">
+        <tr>
+           
+            <th>Picture</th>
+            <th>Course Name</th>
+            <th>Tr Name</th>
+            <th>Address</th>
+            <th>E-mail</th>
+            <th>Birthdate</th>
+            <th>IsRunning</th>
+            <th></th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr id="trainne_tr_@p.TrainneID">
+                <td style="width:50px"><img src="~/Pictures/@p.Picture" style="width:40px" class="img-thumbnail rounded-circle" /></td>
+                <td>@p.Course?.CourseName</td>
+                <td>@p.TrainneName</td>
+                <td>@p.TraineeAddress</td>
+                <td>@p.Email</td>
+                <td>@p.BirthDate.ToShortDateString()</td>
+                <td>@p.IsRunning</td>
+                 <td>
+                    <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="trainne" data-db-action="edit" data-trainne-id="@p.TrainneID" data-controller-action="EditTrainne"><i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="trainne" data-db-action="delete" data-trainne-id="@p.TrainneID" data-controller-action="DeleteTrainne"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

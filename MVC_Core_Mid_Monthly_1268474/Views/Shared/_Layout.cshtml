@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/libs/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/libs/icons/font/bootstrap-icons.css" />
+        <script src="~/libs/bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="~/libs/jquery/jquery.js"></script>
+        <style>
+            body {
+                padding-top: 70px;
+            }
+        </style>
+        @await RenderSectionAsync("styles", false)
+        
+    </environment>
+   
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md  shadow-sm" style=" background-image: linear-gradient(to right,  #005aa7 ,#fffde4);">
+        <div class="container-fluid">
+            @*<span class="navbar-brand text-light display-3">SPA WEB<sup>App</sup></span>*@
+            <h4 class="text-light">SPA WEB<sup>App</sup></h4>
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-controller="Home" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-controller="Main">Single Page Application</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="~/Pictures/back.jpg" style="height: 120%; width: 120%; margin:-60px; position: fixed; z-index: -1;">
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    <environment include="Development">
+        @await RenderSectionAsync("scripts", false)
+    </environment>
+</body>
+</html>

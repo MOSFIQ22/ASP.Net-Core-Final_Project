@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Course>
+<table class="table table-bordered table-hover" id="courseTable">
+    <thead class="table-light">
+        <tr>
+            <th>Batch Name</th>
+            <th>Course Name</th>
+            <th>Course Desc</th>
+            <th>Course Duration</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Available?</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr id="course_tr_@p.CourseID">
+                <td>@p.BatchName</td>
+                <td>@p.CourseName</td>
+                <td>@p.CourseDesc</td>
+                <td>@p.CourseDuration</td>
+                <td>@p.StartDate.ToShortDateString()</td>
+                <td>@p.EndDate.ToShortDateString()</td>
+                <td>@p.Available</td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="course" data-db-action="edit" data-course-id="@p.CourseID" data-controller-action="EditCourse"><i class="bi bi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-circle del" data-db-type="course" data-db-action="delete" data-course-id="@p.CourseID" data-controller-action="DeleteCourse"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
